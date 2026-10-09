@@ -11,7 +11,7 @@ body {
   --brand: #1e56d6;
   --brand-dark: #0b1f3a;
   --accent: #0f9d78;
-  --bg: #f5f6f4;
+  --bg: #b4ff69;
   --surface: #ffffff;
   --text: #151a21;
   --muted: #5b6472;
@@ -88,7 +88,7 @@ textarea[required] {
 }
  
 input[type="email"] {
-  background: #f0f6ff;
+  background: #0f6fff;
 }
 
 a, button {
@@ -110,7 +110,7 @@ textarea:focus {
 }
  
 .tags li:nth-child(even) {
-  background: #e7f7f1;
+  background: #01fa9a;
 }
 #timeline li:first-child {
   font-weight: 700;
@@ -141,11 +141,80 @@ a[href^="http"]::after {
  
 ::selection {
   background: var(--brand);
-  color: #fff;
+  color: #e26666;
 }
 
 /* ---- TEMPORARY EXPERIMENT: delete after Step 2.10 ---- */
-p { color: red; }
+p { color: rgb(253, 138, 138); }
 .card p { color: blue; }
 #about p { color: green; }
+
+
+
+
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px var(--space);
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 6px rgba(11, 31, 58, 0.08);
+}
+
+footer {
+  background: var(--brand-dark);
+  color: #c05a5a;
+  padding: 24px;
+  margin-top: 32px;
+}
+footer p {
+  margin: 0;
+}
+ 
+button {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--brand);
+  color: #ff0404;
+  font: inherit;
+  cursor: pointer;
+}
+button:hover {
+  filter: brightness(1.15);
+}
+
+nav a {
+  display: inline-block;
+  border-radius: 6px;
+}
+ 
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+figure {
+  margin: 0;
+}
+figcaption {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.card img {
+  border-radius: var(--radius);
+}
+
+
+
+
+
 
