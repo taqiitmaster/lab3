@@ -9,6 +9,8 @@ CIT331 Lab 3. A responsive profile page styled with CSS3.
 - Mobile-first responsive design with two breakpoints
 - CSS variables, contrast-checked colors and visible keyboard focus
  
-## Screenshots
+
+ ## Screenshots
 ![Desktop view](screenshots/desktop.png)
 ![Mobile view](screenshots/mobile.png)
+
