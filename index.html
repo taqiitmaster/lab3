@@ -19,14 +19,23 @@
 </header>
 
 <main>
-  <article id="about"> <h2>About Me</h2>
-    <span class="badge">New</span>
-  <figure>
-    <img src="assets/profile.jpg" alt="Photo of [Your Name]" width="180">
-    <figcaption>That's me!</figcaption>
-  </figure>
-  <p>My name is Mtaqi. I am a student of qarshi uni.</p>
+  <article id="about" class="card">
+  <span class="badge">New</span>
+  <h2>About Me</h2>
+  <div class="about-body">
+    <figure>
+      <img src="assets/profile.jpg" alt="Photo of Your Name" width="180">
+      <figcaption>Muhammd Taqi</figcaption>
+    </figure>
+    <div>
+      <p>I am very passionate about my studies. My goal in life is to make so much money but without hurting anyone. I have started an agency back in 2025.</p>
+      <blockquote>
+        <p>"The best way to learn is by building."</p>
+      </blockquote>
+    </div>
+  </div>
 </article>
+
   <section id="skills"> <h2>Skills I'm Building This Semester</h2>
   <ul>
     <li>Web Deelopments</li>
@@ -96,6 +105,17 @@ section id="media">
       <button type="submit">Send</button>
       <button id="clear-btn" type="button">Clear Saved Data</button>
     </fieldset>
+    <div class="row">
+  <div class="field">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  <div class="field">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+</div>
+
   </form>
 </section>
 
