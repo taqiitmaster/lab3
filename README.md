@@ -1,7 +1,14 @@
-# My Profile Page
+# My Styled Profile Page
  
-A semantic HTML5 profile page built for CIT331 Lab 2. Features a
-multi-field accessible contact form and a localStorage feature
-that remembers the visitor's name and topic between visits.
-
-
+CIT331 Lab 3. A responsive profile page styled with CSS3.
+ 
+## What this demonstrates
+- Selectors, specificity and the cascade
+- Box model cards, positioning (sticky header, badge, fixed button)
+- Flexbox for components and CSS Grid with named areas for the page layout
+- Mobile-first responsive design with two breakpoints
+- CSS variables, contrast-checked colors and visible keyboard focus
+ 
+## Screenshots
+![Desktop view](screenshots/desktop.png)
+![Mobile view](screenshots/mobile.png)
